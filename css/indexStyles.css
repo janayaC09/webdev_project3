@@ -88,6 +88,11 @@ p {
   background-color: #e6f0ff;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .images {
   width: 250px;      
   height: 330px;      
