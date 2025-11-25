@@ -1,5 +1,5 @@
-html{
-    background-color: #cce3ff;
+html {
+  background-color: #cce3ff;
 }
 
 #navbar {
@@ -23,16 +23,27 @@ html{
 }
 
 #navbar ul li a {
-    display: block;
-    padding: 1em 0;
-    text-decoration: none;
-    color: #004080;
-    font-family: "Trebuchet MS", sans-serif;
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+  color: #004080;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #navbar ul li a:hover {
-    background-color: #bcdfff;
-    color: #002b5c;
+  background-color: #bcdfff;
+  color: #002b5c;
+}
+
+.content-wrapper {
+  width: 62.5rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -43,37 +54,37 @@ h1 {
   margin: 2rem 0;
 }
 
-h2{
-    text-align: center;
-    color: #003366;
-    font-family: "Lucida Bright", serif;
-    margin: 1.5rem 0;
+h2 {
+  text-align: center;
+  color: #003366;
+  font-family: "Lucida Bright", serif;
+  margin: 1.5rem 0;
 }
 
-h3{
-    color: #2162a2;
-    font-family: "Lucida Bright", serif;
-    margin: 1rem 0;
+h3 {
+  color: #2162a2;
+  font-family: "Lucida Bright", serif;
+  margin: 1rem 0;
 }
 
 #resume-header {
-    text-align: center;
-    background-color: #a7ceff;
-    color: #003366;
-    font-family: "Lucida Bright", serif;
-    border-bottom: 3px solid #005f99;
-    padding: 0.4em 0;
+  text-align: center;
+  background-color: #a7ceff;
+  color: #003366;
+  font-family: "Lucida Bright", serif;
+  border-bottom: 3px solid #005f99;
+  padding: 0.4em 0;
 }
 
-#resume-header h1{
-    font-family: "Lucida Bright", serif;
-    font-size: 2.5em;
-    margin-bottom: 0.2em;
+#resume-header h1 {
+  font-family: "Lucida Bright", serif;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
 }
 
 #resume-header p{
-    font-size: 1.2em;
-    color: #004080;
+  font-size: 1.2em;
+  color: #004080;
 }
 
 #klossy ul li::before {

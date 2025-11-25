@@ -64,12 +64,13 @@ p {
 
 .container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;   
+  text-align: center;    
+  gap: 1rem;             
 }
 
-#container2 {
+.container2 {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -86,6 +87,17 @@ p {
   line-height: 1.4;
   background-color: #e6f0ff;
 }
+
+.images {
+  width: 250px;      
+  height: 330px;      
+  object-fit: cover;  
+  border-radius: 10px;
+  border: 2px solid #66a3ff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  margin: 10px;
+}
+
 
 #footer {
   border-top: 3px solid #005f99;
