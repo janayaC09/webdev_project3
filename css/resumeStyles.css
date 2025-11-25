@@ -1,0 +1,95 @@
+html{
+    background-color: #cce3ff;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #87bfff;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 1em;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: #004080;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#navbar ul li a:hover {
+    background-color: #bcdfff;
+    color: #002b5c;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #005f99;
+  font-family: "Lucida Bright", serif;
+  margin: 2rem 0;
+}
+
+h2{
+    text-align: center;
+    color: #003366;
+    font-family: "Lucida Bright", serif;
+    margin: 1.5rem 0;
+}
+
+h3{
+    color: #2162a2;
+    font-family: "Lucida Bright", serif;
+    margin: 1rem 0;
+}
+
+#resume-header {
+    text-align: center;
+    background-color: #a7ceff;
+    color: #003366;
+    font-family: "Lucida Bright", serif;
+    border-bottom: 3px solid #005f99;
+    padding: 0.4em 0;
+}
+
+#resume-header h1{
+    font-family: "Lucida Bright", serif;
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+#resume-header p{
+    font-size: 1.2em;
+    color: #004080;
+}
+
+#klossy ul li::before {
+  content: "💙 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}
+
+#SchoolIntern ul li::before {
+  content: "🩵 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}
+
+#DPIIntern ul li::before {
+  content: "🤍 ";
+  list-style-type: none;
+  margin-right: 0.5rem;
+}

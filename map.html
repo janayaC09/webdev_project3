@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mapStyles.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="myFavoriteSongs.html">My Favorite Songs</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <div id="canvas">
+            <div id="map"></div>
+        </div> 
+        <button id="questionButton">Questions</button>
+    </div>
+    
+    <script src="map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
+
+</body>
+</html>
