@@ -1,38 +1,38 @@
 html {
-    background-color: #cce3ff;
+  background-color: #cce3ff;
 }
 
 #main-nav {
-    width: 100%;
-    background-color: #87bfff;
+  width: 100%;
+  background-color: #87bfff;
 }
 
 #main-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;                  
-    justify-content: space-around;  
-    align-items: center;           
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;                  
+  justify-content: space-around;  
+  align-items: center;           
 }
 
 #main-nav ul li {
-    flex: 1;
-    text-align: center;
-    font-size: 1em;
+  flex: 1;
+  text-align: center;
+  font-size: 1em;
 }
 
 #main-nav ul li a {
-    display: block;
-    padding: 1em 0;
-    text-decoration: none;
-    color: #004080;
-    font-family: "Trebuchet MS", sans-serif;
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+  color: #004080;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 #main-nav ul li a:hover {
-    background-color: #bcdfff;
-    color: #002b5c;
+  background-color: #bcdfff;
+  color: #002b5c;
 }
 
 .container {
